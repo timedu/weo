@@ -13,6 +13,10 @@ Välivaiheiden kautta päädytään ratkaisuun (Versio 6), jossa käyttöliittym
 Versioiden koodi löytyy
 [GitHubista](https://github.com/timedu/weo/tree/gh-pages/demot/form2xhr).
 
+Selainpään osalta esimerkkiin liittyviä asioista käsitellään kurssimateriaalin (Web-selainohjelmointi) luvuissa 
+[5. DOM](http://web-selainohjelmointi.github.io/#5-DOM) 
+ja 
+[7. Keskustelu palvelimen kanssa](http://web-selainohjelmointi.github.io/#7-Keskustelu-palvelimen-kanssa).
 
 ## Versio 0
 
