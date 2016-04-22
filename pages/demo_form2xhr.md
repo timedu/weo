@@ -5,6 +5,11 @@ title: form2xhr
 
 # Esimerkki ...
 
+Lähtökohtana (Versio 0) on html -lomakkeen sisältävä käyttöliittymä (`index.php`) ja lomakkeen kutsuma palvelu (`service.php`), joka tulostaa lomakkeen välittämän datan NetBeansin Output -ikkunaan ja ohjaa sen jälkeen käsittelyn takaisin käyttöliittymälle.
+
+Välivaiheiden kautta päädytään ratkaisuun (Versio 6), jossa käyttöliittymään syötetty data välitetään palvelulle `json`-muodossa `XMLHttpRequest`-objektia käyttäen. Palvelu selvittää, onko käyttöliittymän kahteen tekstikenttään syötetty samat arvot. Selvityksen tulos palautetaan käyttöliittymälle `json`-muodossa. Käyttöliittymän koodi rakentaa paluuviestin saapumisen jälkeen elementin, jonka sisältönä on vastaanotettu tulos, ja sijoittaa elementin sivulle.
+
+
 Versioiden koodi löytyy
 [GitHubista](https://github.com/timedu/weo/tree/gh-pages/demot/form2xhr).
 
